@@ -1,7 +1,12 @@
 <h1>To-Do List App</h1>
+<form>
+  <input type='text' />
+  <button type='submit'>Add To-Do</button>
+</form>
 <ol>
   {{#each @model as |todo|}}
   <li>{{todo}}</li>
   {{/each}}
 </ol>
+
 
