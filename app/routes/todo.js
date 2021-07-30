@@ -5,4 +5,3 @@ export default class TodoRoute extends Route {
     return ['go to the store', 'walk the dog', 'call mom', 'make dinner'];
   }
 }
-
