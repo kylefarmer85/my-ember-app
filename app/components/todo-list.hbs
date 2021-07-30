@@ -1,5 +1,5 @@
-<form>
-  <input type='text' />
+<form onsubmit={{fn this.submit @model}}>
+  <input type='text' value={{this.text}} onchange={{fn this.onChange}}/>
   <button type='submit'>Add To-Do</button>
 </form>
 <ol>
